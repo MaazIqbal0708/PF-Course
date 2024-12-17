@@ -61,7 +61,7 @@ int main(){
 
     printf("Enter the current date (dd/mm/yyyy): ");
     scanf("%d %d %d", &(currentDate.day), &(currentDate.month), &(currentDate.year));
-    getchar(); // Consume the newline character left by scanf
+    getchar();
 
     for(i = 0; i < 4; i++){
         printEmployee(&employees[i]);
